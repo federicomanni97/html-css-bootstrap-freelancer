@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap Freelancer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     
@@ -15,14 +16,37 @@
     </nav>
    </header>
 <main>
-    <section class="bg-success">
-        <div class="container">
-            hero
+    <section class="bg-teal">
+        <div class="container text-light">
+            <div class="col-6 col-md-4 col-lg-2 mx-auto">
+                <img src="img/avatar.svg" alt="avatar">
+            </div>
+            <div class="text-center py-2">
+                <h1>START BOOTSTRAP</h1>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+                <div style="height: 3px; width: 80px; background-color: white">
+                </div>
+                <span class="fs-1">&star;</span>
+                <div style="height: 3px; width: 80px; background-color: white">
+                </div>     
+            </div>
+            <div class="text-center py-4">    
+                <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+            </div>
+
         </div>
     </section>
     <section class="bg-white">
-        <div class="container text-center mb-5">
+        <div class="container text-center mb-5 my-5">
             <h2>Portfolio</h2>
+            <div class="d-flex align-items-center justify-content-center">
+                <div style="height: 3px; width: 80px; background-color: black">
+                </div>
+                <span class="fs-1">&star;</span>
+                <div style="height: 3px; width: 80px; background-color: black">
+                </div>     
+            </div>
             <div class="star"></div>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4 my-2">
@@ -46,19 +70,28 @@
             </div>
         </div>
     </section>
-    <section class="bg-success">
-        <div class="container text-light">
-            <h2 class="text-center">About</h2>
+    <section class="bg-teal">
+        <div class="container text-light py-5">
+            <h2 class="text-center">ABOUT</h2>
+            <div class="d-flex align-items-center justify-content-center">
+                <div style="height: 3px; width: 80px; background-color: white">
+                </div>
+                <span class="fs-1">&star;</span>
+                <div style="height: 3px; width: 80px; background-color: white">
+                </div>     
+            </div>
             <div class="star"></div>
-               <div class="row">
-                  <div class="col-6 mx-auto">
+               <div class="row align-content-center justify-content-center">
+                  <div class="col-lg-4 col-md-4 col-sm-9 p-3">
                    <p>Freelance is a free bootstrap theme created by a Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization</p>
-                  </div> 
-               </div>
-                  <div class="col-6 mx-auto">
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-9 p-3">
                    <p>Wheter you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                  </div> 
-        </div>
+                  </div>  
+               <div class="text-center">
+               <button class="mx-auto"><i class="fa-solid fa-download"></i> Download</button> 
+               </div>
+            </div>
     </section>
     <section class="bg-white">
         <div class="container">
@@ -66,15 +99,29 @@
         </div>
     </section>
 </main>
-<footer>
-    <div class="top-footer bg-dark-subtle text-light">
-        <div class="container">
-            top-footer
+<footer class="bg-dark">
+    <div class="top-footer text-light text-center d-flex justify-content-center py-5">
+        <div class="row justify-content-center align-content-center">
+          <div class="col-lg-4 col-md-4 col-sm-7 p-3">  
+            <h5>LOCATION</h5>
+            <p>2215 John Daniel Drive Clark, MO 54243</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-7 p-3">  
+            <h5>AROUND THE WEB</h5>
+            <i class="fa-brands circle fa-square-facebook"></i>
+            <i class="fa-brands circle fa-google-plus-g"></i>
+            <i class="fa-brands circle fa-twitter"></i>       
+            <i class="fa-brands circle fa-linkedin-in"></i> 
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-7 p-3">  
+            <h5>ABOUT FREELANCER</h5>
+            <p>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+          </div>  
         </div>    
     </div>
-    <div class="bot-footer bg-dark text-light">
-        <div class="container">
-            bot-footer
+    <div class="bot-footer bg-botfooter text-light py-5">
+        <div class="container text-center">
+            <span>Copyright Your <i class="fa-regular fa-copyright"></i> Website 2019</span>
         </div>
     </div>
 </footer>

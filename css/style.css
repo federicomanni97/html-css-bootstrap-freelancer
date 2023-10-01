@@ -2,3 +2,7 @@ img{
     width: 100%;
     display: block;
 }
+
+.bg-teal{
+    background-color: var(--bs-teal);
+}
